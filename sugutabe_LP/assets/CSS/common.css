@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /* 16px * 62.5% = 10px */
+  width: 100%;
+  box-sizing: border-box;
+}
+body {
+  color: #231815; /* RGB */
+  font-family: "Zen Kaku Gothic New", "メイリオ", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6em;
+  line-height: 1.5;
+  text-align: center;
+}
+section h2 {
+  font-size: 2.4rem;
+}
+a:hover {
+  opacity: 0.5;
+}
+a {
+  color: #231815;
+  text-decoration: none;
+}
+ .cv {
+  color: #f6f4e8;
+  font-size: 1.4rem;
+  border-radius: 100px;
+  border: none;
+  background-color: #e0954b;
+  width: 100%;
+  height: 45px;
+  max-width: 240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; 
+}
+.cv__title {
+  margin-left: 50px;
+}
+.cv .arrow {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+.arrow::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-top: solid 2px #f6f4e8;
+  border-right: solid 2px #f6f4e8;
+  position: absolute;
+  left: 30px;
+  top: 6px;
+}
+.arrow.arrow-right::before {
+  transform: rotate(45deg);
+}
+@media(min-width:768px) {
+  .cv {
+    font-size: 2.5rem;
+    max-width: 420px;
+    height: 85px;
+  }
+  .cv__title {
+    margin-left: 80px;
+  }
+  .arrow::before {
+    width: 10px;
+    height: 10px;
+    left: 63px;
+    top :5px;
+  }
+}
+
+.none{
+  display: none;
+}
