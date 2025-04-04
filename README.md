@@ -1,6 +1,6 @@
 スクール課題
 # 野菜直送サービス　LP
-[link](https://takatsu-yuki.github.io/sugutabe_LP/){:target="_blank"}
+[visit site ↗︎](https://takatsu-yuki.github.io/sugutabe_LP/)
 
 <img width="1440" alt="スクリーンショット 2025-04-04 14 54 08" src="https://github.com/user-attachments/assets/0073e9de-4089-4d0e-979a-590a8af5ae4a" />
 
@@ -19,10 +19,10 @@
    - ライブラリ：Slick（カルーセル）
 
 ## 👩‍💻実装内容
-   ✅ レスポンシブ対応 (PC / スマートフォン)
-   ✅ カルーセル実装 (口コミセクション / Slickを使用)
-   ✅ アコーディオン機能 (よくある質問セクション)
-   ✅ ハンバーガーメニュー (スマホ版ナビゲーション)
+   ✅ レスポンシブ対応 (PC / スマートフォン)  
+   ✅ カルーセル実装 (口コミセクション / Slickを使用)  
+   ✅ アコーディオン機能 (よくある質問セクション)  
+   ✅ ハンバーガーメニュー (スマホ版ナビゲーション)  
 
    JavaScriptを用いたインタラクションに挑戦しました。
    クリック時にCSSのクラスを動的に切り替えることで、アコーディオン機能やスマホナビの開閉を実装しました。
